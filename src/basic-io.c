@@ -8,11 +8,11 @@ int main() {
     /* define a variable in which to store user-provided characters */
     int character;
     /* define a variable in which to store the character count as it grows */
-    long character_count;
+    unsigned long character_count;
     /* set the initial character count to zero */
     character_count = 0;
     /* define a variable in which to store the line count as it grows */
-    long line_count;
+    unsigned long line_count;
     /* set the initial line count to zero */
     line_count = 0;
 
@@ -31,8 +31,8 @@ int main() {
     }
 
     /* tell the user how many characters they input */
-    printf("%s: %d\n", CHAR_COUNT_TEXT_ENUS, character_count);
+    printf("%s: %lu\n", CHAR_COUNT_TEXT_ENUS, character_count);
 
     /* tell the user how many lines they input */
-    printf("%s: %d\n", LINE_COUNT_TEXT_ENUS, line_count);
+    printf("%s: %lu\n", LINE_COUNT_TEXT_ENUS, line_count);
 }
